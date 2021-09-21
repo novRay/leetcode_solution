@@ -1,19 +1,15 @@
 # LeetCode Notes
 
 ## 二分搜索（Binary Search）
+<a href="#lc33">`33. Search in Rotated Sorted Array`</a>
 
-[33. Search in Rotated Sorted Array](#33. Search in Rotated Sorted Array)
-
-[34. Find First and Last Position of Element in Sorted Array](#34.Find First and Last Position of Element in Sorted Array)
-
+<a href="#lc34">`34. Find First and Last Position of Element in Sorted Array`</a>
 
 
 ## 动态规划（Dynamic Programming）
+<a href="lc32">`32. Longest Valid Parentheses`</a>
 
-[32. Longest Valid Parentheses](#32. Longest Valid Parentheses)
-
-
-
+---
 
 
 
@@ -45,12 +41,13 @@
 
 
 
+<a id="lc33"/>
 
-#### [33. Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+#### [33. Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)</a>
 
 ##### Approach1: 动态规划
 
-用 $$dp[i]$$ 来记录 以 $$i$$ 为终点处最长的合法子串长度，初始化 $dp$ 所有值为0，遇到右括号 ')' ， 并且向前能匹配到对应的左括号，说明此处可能存在合法子串。则：
+用 $dp[i]$ 来记录 以 $i$ 为终点处最长的合法子串长度，初始化 $dp$ 所有值为0，遇到右括号 ')' ， 并且向前能匹配到对应的左括号，说明此处可能存在合法子串。则：
 
 该处子串的长度 = 2（代表此处右括号和向前匹配到的左括号）；
 
@@ -265,6 +262,7 @@ while (lo <= hi) {
 
 
 
+<a id="lc34"/>
 
 #### [34. Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
