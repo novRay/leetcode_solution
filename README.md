@@ -7,7 +7,7 @@
 
 
 ## 动态规划（Dynamic Programming）
-<a href="lc32">`32. Longest Valid Parentheses`</a>
+<a href="#lc32">`32. Longest Valid Parentheses`</a>
 
 ---
 
@@ -41,7 +41,7 @@
 
 
 
-<a id="lc32"/>
+<a id="lc32">
 
 #### [32. Longest Valid Parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/)
 
